@@ -44,8 +44,7 @@ int main()
 		cout << a[i] << " ";
 	cout << endl;
 
-	mergeSort(a, 0, ilen-1);		// 归并排序(从上往下)
-	//mergeSortDown2Up(a, ilen);			// 归并排序(从下往上)
+	mergeSort(a, 0, ilen-1);		// 归并排序
 
 	cout << "after  sort:";
 	for (i=0; i<ilen; i++)
